@@ -38,7 +38,7 @@ import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 while(True):
     ret,frame = videoCaptureObject.read()
-    cv2.imwrite("cutie.jpg",frame)
+    cv2.imwrite("dicon.jpg",frame)
     result = False
 videoCaptureObject.release()
 cv2.destroyAllWindows()
