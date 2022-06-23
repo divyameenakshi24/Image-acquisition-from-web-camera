@@ -28,10 +28,10 @@ Use imshow to save image
 End the program and close the output video windows by pressing 'q'
 
 ## Program:
-``` Python
+
 ### Developed By: A.Divya Meenakshi
 ### Register No: 212220230014
-
+``` Python
 ## i) Write the frame as JPG file
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
